@@ -1,4 +1,6 @@
 /* Snippets taken from the TST wiki: https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#hide-horizontal-tabs-at-the-top-of-the-window-1349-1672-2147 */
+/* You need to set toolkit.legacyUserProfileCustomizations.stylesheets to true with about:config  for this file to be used by Firefox. */
+/* Profile directory can be found from Help -> More Troubleshooting Information -> Open Folder (under the Profile heading) */
 
 /* Hide top tab bar */
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
